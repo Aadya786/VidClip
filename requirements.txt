@@ -2,6 +2,7 @@ streamlit
 yt-dlp
 openai-whisper
 pydub
+audioop-lts
 numpy
 moviepy
 google-generativeai
