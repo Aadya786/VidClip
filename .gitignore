@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Video processing output files
+*.mp4
+sample.mp4
+viral_highlight_*.mp4
+
+# Environment variables
+.env
