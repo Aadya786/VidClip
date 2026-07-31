@@ -22,3 +22,32 @@ Speech Recognition: openai-whisper
 Audio Processing: pydub, numpy
 Video Processing & Editing: moviepy
 
+### Running it
+
+You can try the live version of the application here:
+**[VidClip Pro Streamlit App](https://vidclip-fj8uyganjunndcoktedpyu.streamlit.app/)**
+
+Make sure you have [FFmpeg](https://ffmpeg.org/) installed on your computer, as `pydub` and `moviepy` rely on it to process audio and video files.
+
+Step 1: Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/VidClip.git](https://github.com/YOUR_USERNAME/VidClip.git)
+cd VidClip
+```
+Step 2: Set Up a Virtual Environment
+```bash
+# On macOS/Linux:
+python3 -m venv venv
+source venv/bin/activate
+# On Windows (PowerShell):
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+Step 3: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+Step 4: Run the Streamlit App
+```bash
+streamlit run app.py
+```
